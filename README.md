@@ -56,7 +56,7 @@ The village map and information boards show population, food supplies, treasury 
 | `/lv status` | View village status |
 | `/lv claims` | Collect stored items and returns |
 | `/lv admin` | Open administration tools |
-| `/lv create polevichi [layout]` | Create a village |
+| `/lv create` | Create a village |
 | `/lv coins <amount> [player]` | Give coins |
 | `/lv reload` | Reload settings |
 
