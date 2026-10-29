@@ -1,0 +1,1263 @@
+---
+food:
+  BREAD: 4
+  CARROT: 2
+  COD: 2
+  SWEET_BERRIES: 1
+  BAKED_POTATO: 4
+  COOKED_BEEF: 6
+  BEEF: 2
+  PORKCHOP: 2
+  HONEY_BOTTLE: 3
+  RABBIT: 2
+  CHICKEN: 2
+  COOKED_COD: 5
+  POTATO: 1
+  BEETROOT: 1
+prices:
+  REDSTONE:
+    base: 16
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 480
+  PAPER:
+    base: 3
+    target: 16
+    batch: 3
+    bid-cap-hundredths: 90
+  WHEAT:
+    base: 1
+    target: 128
+    batch: 8
+    bid-cap-hundredths: 30
+  COBBLESTONE:
+    base: 1
+    target: 192
+    batch: 8
+    bid-cap-hundredths: 30
+  OAK_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  SPRUCE_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  ACACIA_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  MANGROVE_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  BREAD:
+    base: 6
+    target: 80
+    batch: 4
+    bid-cap-hundredths: 120
+  CARROT:
+    base: 3
+    target: 160
+    batch: 4
+    bid-cap-hundredths: 90
+  COD:
+    base: 5
+    target: 64
+    batch: 4
+    bid-cap-hundredths: 150
+  COAL:
+    base: 8
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 240
+  CHARCOAL:
+    base: 8
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 120
+  WHITE_WOOL:
+    base: 12
+    target: 32
+    batch: 1
+    bid-cap-hundredths: 360
+  COPPER_INGOT:
+    base: 16
+    target: 32
+    batch: 1
+    bid-cap-hundredths: 480
+  IRON_INGOT:
+    base: 48
+    target: 16
+    batch: 1
+    bid-cap-hundredths: 1440
+  SAND:
+    base: 2
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 60
+  GLASS:
+    base: 6
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 65
+  CLAY_BALL:
+    base: 3
+    target: 64
+    batch: 4
+    bid-cap-hundredths: 90
+  BRICK:
+    base: 5
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 100
+  SUGAR_CANE:
+    base: 3
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 90
+  SWEET_BERRIES:
+    base: 3
+    target: 80
+    batch: 4
+    bid-cap-hundredths: 90
+  LEATHER:
+    base: 10
+    target: 32
+    batch: 1
+    bid-cap-hundredths: 300
+  STONE_AXE:
+    base: 16
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 300
+  STONE_PICKAXE:
+    base: 16
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 300
+  FISHING_ROD:
+    base: 24
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 600
+  GRAVEL:
+    base: 2
+    target: 128
+    batch: 8
+    bid-cap-hundredths: 60
+  WHEAT_SEEDS:
+    base: 2
+    target: 48
+    batch: 8
+    bid-cap-hundredths: 60
+  RAW_IRON:
+    base: 24
+    target: 32
+    batch: 1
+    bid-cap-hundredths: 400
+  STONE_HOE:
+    base: 12
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 300
+  OAK_SAPLING:
+    base: 4
+    target: 16
+    batch: 1
+    bid-cap-hundredths: 120
+  SPRUCE_SAPLING:
+    base: 4
+    target: 16
+    batch: 1
+    bid-cap-hundredths: 120
+  ACACIA_SAPLING:
+    base: 4
+    target: 16
+    batch: 1
+    bid-cap-hundredths: 120
+  MANGROVE_PROPAGULE:
+    base: 4
+    target: 16
+    batch: 1
+    bid-cap-hundredths: 120
+  KELP:
+    base: 2
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 60
+  CACTUS:
+    base: 3
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 90
+  BEEF:
+    base: 5
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 150
+  PORKCHOP:
+    base: 5
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 150
+  COOKED_BEEF:
+    base: 9
+    target: 48
+    batch: 4
+    bid-cap-hundredths: 200
+  HONEY_BOTTLE:
+    base: 12
+    target: 24
+    batch: 1
+    bid-cap-hundredths: 200
+  HONEYCOMB:
+    base: 8
+    target: 24
+    batch: 1
+    bid-cap-hundredths: 160
+  GLASS_BOTTLE:
+    base: 4
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 100
+  SHEARS:
+    base: 100
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 800
+  DANDELION:
+    base: 2
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 60
+  OAK_BOAT:
+    base: 32
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 200
+  SPRUCE_BOAT:
+    base: 32
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 200
+  ACACIA_BOAT:
+    base: 32
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 200
+  MANGROVE_BOAT:
+    base: 32
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 200
+  BIRCH_BOAT:
+    base: 32
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 200
+  ORANGE_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  MAGENTA_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  LIGHT_BLUE_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  YELLOW_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  LIME_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  PINK_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  GRAY_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  LIGHT_GRAY_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  CYAN_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  PURPLE_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  BLUE_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  BROWN_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  GREEN_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  RED_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  BLACK_WOOL:
+    base: 12
+    target: 8
+    batch: 1
+    bid-cap-hundredths: 360
+  BUCKET:
+    base: 144
+    target: 2
+    batch: 1
+    bid-cap-hundredths: 5760
+  WATER_BUCKET:
+    base: 168
+    target: 2
+    batch: 1
+    bid-cap-hundredths: 5760
+  OAK_PLANKS:
+    base: 1
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 40
+  OAK_FENCE:
+    base: 6
+    target: 32
+    batch: 8
+    bid-cap-hundredths: 60
+  OAK_FENCE_GATE:
+    base: 8
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 180
+  SPRUCE_PLANKS:
+    base: 1
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 40
+  SPRUCE_FENCE:
+    base: 6
+    target: 32
+    batch: 8
+    bid-cap-hundredths: 60
+  SPRUCE_FENCE_GATE:
+    base: 8
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 180
+  ACACIA_PLANKS:
+    base: 1
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 40
+  ACACIA_FENCE:
+    base: 6
+    target: 32
+    batch: 8
+    bid-cap-hundredths: 60
+  ACACIA_FENCE_GATE:
+    base: 8
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 180
+  MANGROVE_PLANKS:
+    base: 1
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 40
+  MANGROVE_FENCE:
+    base: 6
+    target: 32
+    batch: 8
+    bid-cap-hundredths: 60
+  MANGROVE_FENCE_GATE:
+    base: 8
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 180
+  BIRCH_PLANKS:
+    base: 1
+    target: 64
+    batch: 8
+    bid-cap-hundredths: 40
+  BIRCH_FENCE:
+    base: 6
+    target: 32
+    batch: 8
+    bid-cap-hundredths: 60
+  BIRCH_FENCE_GATE:
+    base: 8
+    target: 4
+    batch: 1
+    bid-cap-hundredths: 180
+  RABBIT:
+    base: 5
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 150
+  CHICKEN:
+    base: 5
+    target: 32
+    batch: 4
+    bid-cap-hundredths: 150
+  RABBIT_HIDE:
+    base: 2
+    target: 24
+    batch: 8
+    bid-cap-hundredths: 60
+  IRON_SWORD:
+    base: 112
+    target: 32
+    batch: 1
+  BOW:
+    base: 32
+    target: 32
+    batch: 1
+  ARROW:
+    base: 2
+    target: 32
+    batch: 4
+  FLINT:
+    base: 2
+    target: 32
+    batch: 4
+  FEATHER:
+    base: 3
+    target: 32
+    batch: 1
+  STRING:
+    base: 4
+    target: 32
+    batch: 1
+  WHITE_BED:
+    base: 48
+    target: 32
+    batch: 1
+  COOKED_COD:
+    base: 9
+    target: 64
+    batch: 4
+  IRON_DOOR:
+    base: 112
+    target: 12
+    batch: 1
+  POTATO:
+    base: 2
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 90
+  BEETROOT:
+    base: 2
+    target: 64
+    batch: 4
+    bid-cap-hundredths: 90
+  BEETROOT_SEEDS:
+    base: 1
+    target: 16
+    batch: 8
+    bid-cap-hundredths: 90
+  BIRCH_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  JUNGLE_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  DARK_OAK_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  CHERRY_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+  PALE_OAK_LOG:
+    base: 4
+    target: 96
+    batch: 4
+    bid-cap-hundredths: 120
+recipes:
+  garden:
+    role: FARMER
+    input: {}
+    output:
+      CARROT: 24
+    condition: irrigated
+    tool-wear: 1
+    renew-days: 1
+  grove_oak:
+    role: LUMBERJACK
+    input: {}
+    output:
+      OAK_LOG: 8
+      OAK_SAPLING: 1
+    condition: grove
+    tool-wear: 2
+    renew-days: 3
+  stone_pit:
+    role: ARTISAN
+    input: {}
+    output:
+      COBBLESTONE: 8
+    condition: stone
+    tool-wear: 2
+    renew-days: 2
+  sand_pit:
+    role: ARTISAN
+    input: {}
+    output:
+      SAND: 4
+    condition: sand
+    tool-wear: 1
+    renew-days: 2
+  iron_pit:
+    role: ARTISAN
+    input: {}
+    output:
+      RAW_IRON: 2
+    condition: iron
+    tool-wear: 2
+    renew-days: 3
+  water_supply:
+    role: WATER_CARRIER
+    input:
+      BUCKET: 1
+    output:
+      WATER_BUCKET: 1
+    condition: water_source
+    tool-wear: 1
+    renew-days: 1
+  soil_pit:
+    role: MINER
+    input: {}
+    output:
+      DIRT: 8
+    condition: dirt
+    tool-wear: 1
+    renew-days: 1
+crafting:
+  cobblestone_walls:
+    input:
+      COBBLESTONE: 6
+    output:
+      COBBLESTONE_WALL: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  sandstone_walls:
+    input:
+      SANDSTONE: 6
+    output:
+      SANDSTONE_WALL: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  paper:
+    input:
+      SUGAR_CANE: 3
+    output:
+      PAPER: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_planks:
+    input:
+      OAK_LOG: 1
+    output:
+      OAK_PLANKS: 4
+    facility: hand
+    batch: 8
+    fuel: {}
+    tool-role: 
+  OAK_sticks:
+    input:
+      OAK_PLANKS: 2
+    output:
+      STICK: 4
+    facility: hand
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_bench:
+    input:
+      OAK_PLANKS: 4
+    output:
+      CRAFTING_TABLE: 1
+    facility: hand
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_SLAB:
+    input:
+      OAK_PLANKS: 3
+    output:
+      OAK_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_STAIRS:
+    input:
+      OAK_PLANKS: 6
+    output:
+      OAK_STAIRS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_FENCE:
+    input:
+      OAK_PLANKS: 4
+      STICK: 2
+    output:
+      OAK_FENCE: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_FENCE_GATE:
+    input:
+      OAK_PLANKS: 4
+      STICK: 2
+    output:
+      OAK_FENCE_GATE: 1
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_DOOR:
+    input:
+      OAK_PLANKS: 6
+    output:
+      OAK_DOOR: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_SIGN:
+    input:
+      OAK_PLANKS: 6
+      STICK: 1
+    output:
+      OAK_SIGN: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_TRAPDOOR:
+    input:
+      OAK_PLANKS: 6
+    output:
+      OAK_TRAPDOOR: 2
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_WOOD:
+    input:
+      OAK_LOG: 4
+    output:
+      OAK_WOOD: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_WOODEN_PICKAXE:
+    input:
+      OAK_PLANKS: 3
+      STICK: 2
+    output:
+      WOODEN_PICKAXE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_WOODEN_AXE:
+    input:
+      OAK_PLANKS: 3
+      STICK: 2
+    output:
+      WOODEN_AXE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_WOODEN_HOE:
+    input:
+      OAK_PLANKS: 2
+      STICK: 2
+    output:
+      WOODEN_HOE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_barrel:
+    input:
+      OAK_PLANKS: 6
+      OAK_SLAB: 2
+    output:
+      BARREL: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_chest:
+    input:
+      OAK_PLANKS: 8
+    output:
+      CHEST: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_charcoal:
+    input:
+      OAK_LOG: 1
+    output:
+      CHARCOAL: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      OAK_PLANKS: 1
+    tool-role: 
+  OAK_stripped_log:
+    input:
+      OAK_LOG: 1
+    output:
+      STRIPPED_OAK_LOG: 1
+    facility: hand
+    batch: 4
+    fuel: {}
+    tool-role: LUMBERJACK
+  OAK_stripped_wood:
+    input:
+      STRIPPED_OAK_LOG: 4
+    output:
+      STRIPPED_OAK_WOOD: 3
+    facility: hand
+    batch: 4
+    fuel: {}
+    tool-role: 
+  OAK_smithing:
+    input:
+      IRON_INGOT: 2
+      OAK_PLANKS: 4
+    output:
+      SMITHING_TABLE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_grindstone:
+    input:
+      STICK: 2
+      STONE_SLAB: 1
+      OAK_PLANKS: 2
+    output:
+      GRINDSTONE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  OAK_composter:
+    input:
+      OAK_SLAB: 7
+    output:
+      COMPOSTER: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  STONE_HOE:
+    input:
+      COBBLESTONE: 2
+      STICK: 2
+    output:
+      STONE_HOE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  STONE_AXE:
+    input:
+      COBBLESTONE: 3
+      STICK: 2
+    output:
+      STONE_AXE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  STONE_PICKAXE:
+    input:
+      COBBLESTONE: 3
+      STICK: 2
+    output:
+      STONE_PICKAXE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  STONE_SHOVEL:
+    input:
+      COBBLESTONE: 1
+      STICK: 2
+    output:
+      STONE_SHOVEL: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  IRON_HOE:
+    input:
+      IRON_INGOT: 2
+      STICK: 2
+    output:
+      IRON_HOE: 1
+    facility: forge
+    batch: 1
+    fuel: {}
+    tool-role: ARTISAN
+  IRON_AXE:
+    input:
+      IRON_INGOT: 3
+      STICK: 2
+    output:
+      IRON_AXE: 1
+    facility: forge
+    batch: 1
+    fuel: {}
+    tool-role: ARTISAN
+  IRON_PICKAXE:
+    input:
+      IRON_INGOT: 3
+      STICK: 2
+    output:
+      IRON_PICKAXE: 1
+    facility: forge
+    batch: 1
+    fuel: {}
+    tool-role: ARTISAN
+  IRON_SHOVEL:
+    input:
+      IRON_INGOT: 1
+      STICK: 2
+    output:
+      IRON_SHOVEL: 1
+    facility: forge
+    batch: 1
+    fuel: {}
+    tool-role: ARTISAN
+  compost_soil:
+    input:
+      CARROT: 8
+    output:
+      DIRT: 1
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  furnace:
+    input:
+      COBBLESTONE: 8
+    output:
+      FURNACE: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  smelt_STONE:
+    input:
+      COBBLESTONE: 1
+    output:
+      STONE: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+    tool-role: 
+  smelt_GLASS:
+    input:
+      SAND: 1
+    output:
+      GLASS: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+    tool-role: 
+  smelt_IRON_INGOT:
+    input:
+      RAW_IRON: 1
+    output:
+      IRON_INGOT: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+    tool-role: 
+  smelt_BRICK:
+    input:
+      CLAY_BALL: 1
+    output:
+      BRICK: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+    tool-role: 
+  stone_bricks:
+    input:
+      STONE: 4
+    output:
+      STONE_BRICKS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  glass_panes:
+    input:
+      GLASS: 6
+    output:
+      GLASS_PANE: 16
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  bottle:
+    input:
+      GLASS: 3
+    output:
+      GLASS_BOTTLE: 3
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  bucket:
+    input:
+      IRON_INGOT: 3
+    output:
+      BUCKET: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  nuggets:
+    input:
+      IRON_INGOT: 1
+    output:
+      IRON_NUGGET: 9
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  torch:
+    input:
+      CHARCOAL: 1
+      STICK: 1
+    output:
+      TORCH: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  lantern:
+    input:
+      IRON_NUGGET: 8
+      TORCH: 1
+    output:
+      LANTERN: 1
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  hay:
+    input:
+      WHEAT: 9
+    output:
+      HAY_BLOCK: 1
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  seed_cleaning:
+    input:
+      WHEAT: 1
+    output:
+      WHEAT_SEEDS: 1
+    facility: hand
+    batch: 4
+    fuel: {}
+    tool-role: 
+  COBBLESTONE_slab:
+    input:
+      COBBLESTONE: 3
+    output:
+      COBBLESTONE_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  COBBLESTONE_stairs:
+    input:
+      COBBLESTONE: 6
+    output:
+      COBBLESTONE_STAIRS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  STONE_slab:
+    input:
+      STONE: 3
+    output:
+      STONE_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  STONE_BRICKS_slab:
+    input:
+      STONE_BRICKS: 3
+    output:
+      STONE_BRICK_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  STONE_BRICKS_stairs:
+    input:
+      STONE_BRICKS: 6
+    output:
+      STONE_BRICK_STAIRS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  SANDSTONE_slab:
+    input:
+      SANDSTONE: 3
+    output:
+      SANDSTONE_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  SANDSTONE_stairs:
+    input:
+      SANDSTONE: 6
+    output:
+      SANDSTONE_STAIRS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  CUT_SANDSTONE_slab:
+    input:
+      CUT_SANDSTONE: 3
+    output:
+      CUT_SANDSTONE_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  DEEPSLATE_BRICKS_slab:
+    input:
+      DEEPSLATE_BRICKS: 3
+    output:
+      DEEPSLATE_BRICK_SLAB: 6
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  DEEPSLATE_BRICKS_stairs:
+    input:
+      DEEPSLATE_BRICKS: 6
+    output:
+      DEEPSLATE_BRICK_STAIRS: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  sandstone:
+    input:
+      SAND: 4
+    output:
+      SANDSTONE: 1
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  cut_sandstone:
+    input:
+      SANDSTONE: 4
+    output:
+      CUT_SANDSTONE: 4
+    facility: bench
+    batch: 4
+    fuel: {}
+    tool-role: 
+  smooth_sandstone:
+    input:
+      SANDSTONE: 1
+    output:
+      SMOOTH_SANDSTONE: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+    tool-role: 
+  stonecutter:
+    input:
+      STONE: 3
+      IRON_INGOT: 1
+    output:
+      STONECUTTER: 1
+    facility: bench
+    batch: 1
+    fuel: {}
+    tool-role: 
+  white_bed:
+    input:
+      WHITE_WOOL: 3
+      OAK_PLANKS: 3
+    output:
+      WHITE_BED: 1
+    fuel: {}
+    batch: 1
+    facility: bench
+  sword:
+    input:
+      IRON_INGOT: 2
+      STICK: 1
+    output:
+      IRON_SWORD: 1
+    fuel: {}
+    batch: 1
+    facility: forge
+  bow:
+    input:
+      STRING: 3
+      STICK: 3
+    output:
+      BOW: 1
+    fuel: {}
+    batch: 1
+    facility: bench
+  arrows:
+    input:
+      FLINT: 1
+      FEATHER: 1
+      STICK: 1
+    output:
+      ARROW: 4
+    fuel: {}
+    batch: 1
+    facility: bench
+  chiseled_stone_bricks:
+    input:
+      STONE_BRICK_SLAB: 2
+    output:
+      CHISELED_STONE_BRICKS: 1
+    fuel: {}
+    batch: 4
+    facility: bench
+  iron_doors:
+    input:
+      IRON_INGOT: 6
+    output:
+      IRON_DOOR: 3
+    fuel: {}
+    batch: 1
+    facility: forge
+  bake_bread:
+    input:
+      WHEAT: 3
+    output:
+      BREAD: 1
+    facility: bench
+    batch: 8
+    fuel: {}
+  bake_potato:
+    input:
+      POTATO: 1
+    output:
+      BAKED_POTATO: 1
+    facility: furnace
+    batch: 8
+    fuel:
+      CHARCOAL: 1
+  OAK_wood:
+    input:
+      OAK_LOG: 4
+    output:
+      OAK_WOOD: 3
+    facility: hand
+    batch: 4
+    fuel: {}
+    tool-role: 
+biome-production:
+  SNOWY_PLAINS:
+    garden: 60
+  SNOWY_TAIGA:
+    garden: 60
+  TAIGA:
+    garden: 60
+  GROVE:
+    garden: 60
+  JAGGED_PEAKS:
+    garden: 60
+  FROZEN_PEAKS:
+    garden: 60
+  DESERT:
+    garden: 75
+  BADLANDS:
+    garden: 75
+  ERODED_BADLANDS:
+    garden: 75
+  WOODED_BADLANDS:
+    garden: 75
+  SWAMP: {}
+  MANGROVE_SWAMP: {}
+  BEACH: {}
+  STONY_SHORE: {}
+  SNOWY_BEACH: {}

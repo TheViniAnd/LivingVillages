@@ -1,0 +1,15 @@
+package ru.livingvillages;
+
+import ru.livingvillages.domain.*;
+import org.bukkit.configuration.ConfigurationSection;
+import ru.livingvillages.content.YamlDefaults;
+import java.nio.file.*;
+import java.io.StringReader;
+import java.util.*;
+
+final class AutonomyData {
+    static Map<String,Integer> quantities(ConfigurationSection c,String key){var out=new LinkedHashMap<String,Integer>();var s=c.getConfigurationSection(key);if(s!=null)s.getValues(false).forEach((k,n)->out.put(k,((Number)n).intValue()));return out;}
+    static Rules rules() throws Exception {var r=new Rules();r.autonomy=true;var text=Files.readString(Path.of("src/main/resources/economy.yml"));var yaml=YamlDefaults.load(new StringReader(text),new StringReader(text));r.foods.putAll(quantities(yaml,"food"));for(String name:yaml.getConfigurationSection("recipes").getKeys(false)){var c=yaml.getConfigurationSection("recipes."+name);r.recipes.put(name,new Rules.Recipe(c.getString("role"),quantities(c,"input"),quantities(c,"output"),c.getString("condition"),c.getInt("tool-wear"),c.getInt("renew-days"),c.getString("mode","standard"),c.getString("equipment"),c.getInt("equipment-durability",64)));}for(String name:yaml.getConfigurationSection("crafting").getKeys(false)){var c=yaml.getConfigurationSection("crafting."+name);r.crafts.put(name,new Rules.Craft(quantities(c,"input"),quantities(c,"output"),quantities(c,"fuel"),c.getInt("batch"),c.getString("facility"),c.getString("tool-role")));}for(String name:yaml.getConfigurationSection("prices").getKeys(false)){var c=yaml.getConfigurationSection("prices."+name);r.prices.put(name,new Rules.Price(c.getInt("base"),c.getInt("target"),c.getInt("batch"),c.getInt("bid-cap-hundredths")));}return r;}
+    static Village.Building building(Village v,String kind,String recipe,String... stations){var b=new Village.Building();b.kind=kind;b.recipe=recipe;b.complete=true;b.resourceConfirmed=true;v.buildings.add(b);var p=new Village.Project();p.kind=kind;p.building=b.id;p.state="COMPLETE";for(String station:stations)p.blocks.add(new Village.Block(p.blocks.size(),0,0,1,"minecraft:air","minecraft:"+station,station.toUpperCase(Locale.ROOT)));v.projects.add(p);return b;}
+    static Village village(){var v=new Village();v.name="Хозяйство";v.culture="polevichi";v.biome="PLAINS";v.laws.immigration=false;for(var role:List.of(Village.Role.ELDER,Village.Role.MERCHANT,Village.Role.FARMER,Village.Role.LUMBERJACK,Village.Role.GUARD)){var r=new Village.Resident();r.name=role.name();r.role=role;v.residents.add(r);}var hall=building(v,"hall",null,"crafting_table");hall.beds=6;var farm=building(v,"garden","garden");v.residents.get(2).workplace=farm.id;var trees=building(v,"tree_garden","grove_oak");trees.wood="OAK";trees.cycles=3;trees.cycleReadyDay=3;trees.trees.add(new Village.TreeSite(1,1,4));trees.trees.add(new Village.TreeSite(5,1,4));v.residents.get(3).workplace=trees.id;v.stock.add("CARROT",70,v.capacity);v.stock.add("COBBLESTONE",64,v.capacity);v.stock.add("STONE_HOE",4,v.capacity);v.stock.add("STONE_PICKAXE",1,v.capacity);v.stock.add("STONE_AXE",1,v.capacity);return v;}
+}

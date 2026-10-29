@@ -1,0 +1,41 @@
+---
+polevichi:
+  name: Полевичи
+  biomes:
+  - PLAINS
+  - SUNFLOWER_PLAINS
+  - MEADOW
+  names:
+  - Яромир
+  - Весна
+  - Ладей
+  - Мирина
+  - Борей
+  - Светозар
+  - Рута
+  palette:
+    log: OAK_LOG
+    wall: OAK_PLANKS
+    base: COBBLESTONE
+    roof: OAK_SLAB
+    planks: OAK_PLANKS
+    stairs: OAK_STAIRS
+    fence: OAK_FENCE
+    door: OAK_DOOR
+    gate: OAK_FENCE_GATE
+    sapling: OAK_SAPLING
+  specialty: garden
+  greeting: Где полон амбар, там спокоен двор.
+  need: Берегите зерно и тёплый хлеб.
+  initial-goods:
+    WHEAT: 32
+  demand:
+    WHEAT: 160
+    BREAD: 140
+  development:
+  - tree_garden
+  - stone_pit
+  - kiln_house
+  - forge
+  - family_home
+  - garden

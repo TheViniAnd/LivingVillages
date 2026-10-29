@@ -1,0 +1,190 @@
+---
+language: en
+food-planning:
+  enabled: true
+  capacity-margin: 1.35
+  growth-buffer: 2
+simulation:
+  day-seconds: 1200
+  pulse-ticks: 20
+  max-days-pass: 1
+nutrition:
+  per-resident: 4
+  warning-days: 2
+  exhaustion-days: 2
+  death-deficit-days: 3
+  target-days: 7
+  initial-days: 7
+population:
+  maximum: 12
+  arrival:
+    interval-seconds: 240
+    first-seconds: 90
+    batch: 2
+  immigration-days: 4
+  home-immigration-days: 1
+  minimum-adult-builders: 1
+  child-growth-days: 8
+  child-immigration-percent: 20
+storage:
+  capacity: 4096
+housing:
+  family-size: 2
+  family-start-day: 3
+  family-interval-days: 2
+  plot-padding: 2
+residents:
+  health:
+    adult: 100
+    child: 20
+    guard: 180
+    recovery-per-day: 10
+  activity:
+    walk-interval-seconds: 4
+    look-interval-millis: 750
+  routine:
+    patrol-seconds: 40
+    stuck-seconds: 30
+    walk-speed: 0.7
+    work-stroll-seconds: 24
+    rescue-drop: 2.5
+    max-step-drop: 1.25
+water:
+  enabled: true
+  source-search-radius: 16
+  source-recheck-seconds: 30
+reputation:
+  access:
+    friend: 50
+    construction: 100
+  daily-positive-limit: 20
+  food-help-bonus: 10
+  contract-reward: 15
+  resident-kill-penalty: 100
+  resident-hit-penalty: 5
+  hostility-below: 50
+  forgetting-grace-days: 14
+  forgetting-per-day: 2
+  conversation-per-day: 3
+  conversation-cap: 100
+  trade-ceiling: 300
+  trade-per-day: 3
+  category-limit: 350
+quests:
+  delivery-days: 3
+  build-reward: 32
+  repair-reward: 16
+  defense-reward: 16
+autonomy:
+  initial-local-logs: 64
+  crafting:
+    enabled: true
+    interval-seconds: 30
+    workers-per-pass: 2
+    max-passes: 1
+  bootstrap-stone-reserve: 64
+  supply:
+    spare-tools: 1
+    replace-below-uses: 8
+    seed-reserve: 2
+    fuel-reserve: 4
+  enabled: true
+  craft-workers-per-day: 2
+  logs-reserve: 32
+  stone-reserve: 64
+  prospect-depth: 24
+lighting:
+  enabled: true
+  spacing: 8
+  starter-posts: 4
+  max-posts: 16
+  scan-per-pass: 16
+development:
+  auto-repair: true
+  auto-plan: true
+  plan-interval-seconds: 60
+  village-population: 8
+  advanced-population: 16
+  town-population: 24
+tools:
+  FARMER:
+    material: STONE_HOE
+    durability: 64
+  LUMBERJACK:
+    material: STONE_AXE
+    durability: 64
+  FISHER:
+    material: FISHING_ROD
+    durability: 64
+  ARTISAN:
+    material: STONE_PICKAXE
+    durability: 64
+generation:
+  enabled: true
+  layout: random
+  worlds:
+  - world
+  chance: 0.015
+  minimum-distance: 0
+  spawn-distance: 256
+  initial-radius: 40
+  max-radius: 48
+  max-height-difference: 2
+  clear-vegetation: true
+  clear-trees: true
+  max-clear-height: 48
+  candidate-wait-seconds: 300
+  allowed-biomes: []
+  deny-with-unknown-plugins: true
+  placement-allow-plugins:
+  - LivingVillages
+  max-villages-per-world: 5
+construction:
+  max-projects: 6
+  labor-blocks-second: 8
+  natural-paths: true
+limits:
+  blocks-per-pass: 32
+  villages-per-pass: 8
+  npc-per-pass: 16
+  npc-spawns-per-pass: 1
+  npc-paths-per-pass: 8
+  npc-motion-per-pass: 32
+  npc-motion-budget-ms: 2
+  npc-budget-ms: 4
+  resource-blocks-per-pass: 128
+  resource-jobs-per-pass: 16
+  placement-columns-per-pass: 128
+  candidates: 64
+  boards-per-pass: 6
+  map-samples-per-pass: 64
+  map-budget-ms: 2
+  grove-blocks-per-pass: 8
+dialogue:
+  cooldown-seconds: 4
+interface:
+  town-signs: true
+  sign-refresh-seconds: 5
+  map-refresh-seconds: 120
+protection:
+  enabled: true
+guards:
+  residents-per-guard: 6
+  population-cap: 8
+  detection-radius: 24
+  maximum-height-difference: 4
+  melee-damage: 12
+  attack-millis: 1000
+  alarm-seconds: 10
+discovery:
+  distance: 64
+saving:
+  seconds: 30
+debug:
+  server-self-test: false
+council:
+  enabled: true
+  horizon-days: 10
+edition:
+  reminders-enabled: true
+  reminder-seconds: 7200

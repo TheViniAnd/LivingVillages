@@ -1,0 +1,37 @@
+---
+square:
+  name: Общий двор
+  plots:
+  - kind: hall
+    x: -18
+    z: -14
+  - kind: warehouse
+    x: 1
+    z: -14
+  - kind: garden
+    x: -18
+    z: 2
+street:
+  name: Торговая улица
+  plots:
+  - kind: hall
+    x: -20
+    z: -20
+  - kind: warehouse
+    x: 4
+    z: -18
+  - kind: garden
+    x: -18
+    z: 4
+terraces:
+  name: Террасный двор
+  plots:
+  - kind: hall
+    x: -20
+    z: -17
+  - kind: warehouse
+    x: 4
+    z: -17
+  - kind: garden
+    x: -18
+    z: 5

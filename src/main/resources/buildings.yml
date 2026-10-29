@@ -1,0 +1,1909 @@
+---
+hall:
+  name: Дом совета
+  beds: 6
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+    - bbbbbbbbbbb
+  - phase: 1
+    rows:
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+    - ppppppppppp
+  - phase: 2
+    rows:
+    - lwwwwwwwwwl
+    - wHHHHHH...w
+    - wBBBBBB...w
+    - w.........w
+    - w.........w
+    - w.........w
+    - wf.......cw
+    - w.........w
+    - lwwwwdwwwwl
+  - phase: 2
+    rows:
+    - lwgwwwwwgwl
+    - w.........w
+    - g.........g
+    - w.........w
+    - w.........w
+    - w.........w
+    - g.........g
+    - w.........w
+    - lwgwwDwwgwl
+  - phase: 3
+    rows:
+    - lwwwwwwwwwl
+    - w.........w
+    - w.........w
+    - w.........w
+    - w....L....w
+    - w.........w
+    - w.........w
+    - w.........w
+    - lwwwwwwwwwl
+  - phase: 3
+    rows:
+    - twwwwwwwwws
+    - t         s
+    - t         s
+    - t         s
+    - t         s
+    - t         s
+    - t         s
+    - t         s
+    - twwwwwwwwws
+  - phase: 3
+    rows:
+    - " twwwwwwws "
+    - " t       s "
+    - " t       s "
+    - " t       s "
+    - " t       s "
+    - " t       s "
+    - " t       s "
+    - " t       s "
+    - " twwwwwwws "
+  - phase: 3
+    rows:
+    - "  twwwwws  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  t     s  "
+    - "  twwwwws  "
+  - phase: 3
+    rows:
+    - "   twwws   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   t   s   "
+    - "   twwws   "
+  - phase: 3
+    rows:
+    - "    tws    "
+    - "    t s    "
+    - "    t s    "
+    - "    t s    "
+    - "    t s    "
+    - "    t s    "
+    - "    t s    "
+    - "    t s    "
+    - "    tws    "
+  - phase: 3
+    rows:
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+    - "     r     "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  design-version: 2
+warehouse:
+  name: Торговый амбар
+  beds: 0
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 1
+    rows:
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+  - phase: 2
+    rows:
+    - lwwwwwl
+    - wc...cw
+    - wc...cw
+    - wc...cw
+    - wc...cw
+    - w.....w
+    - lwwdwwl
+  - phase: 2
+    rows:
+    - lwgwgwl
+    - w.....w
+    - g.....g
+    - w.....w
+    - g.....g
+    - w.....w
+    - lwgDgwl
+  - phase: 3
+    rows:
+    - lwwwwwl
+    - w.....w
+    - w.....w
+    - w..L..w
+    - w.....w
+    - w.....w
+    - lwwwwwl
+  - phase: 3
+    rows:
+    - twwwwws
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - twwwwws
+  - phase: 3
+    rows:
+    - " twwws "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " twwws "
+  - phase: 3
+    rows:
+    - "  tws  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  tws  "
+  - phase: 3
+    rows:
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  design-version: 2
+residence:
+  name: Дом переселенцев
+  beds: 4
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+    - bbbbbbbbb
+  - phase: 1
+    rows:
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+    - ppppppppp
+  - phase: 2
+    rows:
+    - lwwwwwwwl
+    - wHHHH...w
+    - wBBBB...w
+    - w.......w
+    - w.......w
+    - w.......w
+    - wf.....cw
+    - w.......w
+    - lwwwdwwwl
+  - phase: 2
+    rows:
+    - lwgwwwgwl
+    - w.......w
+    - g.......g
+    - w.......w
+    - w.......w
+    - w.......w
+    - g.......g
+    - w.......w
+    - lwgwDwgwl
+  - phase: 3
+    rows:
+    - lwwwwwwwl
+    - w.......w
+    - w.......w
+    - w.......w
+    - w...L...w
+    - w.......w
+    - w.......w
+    - w.......w
+    - lwwwwwwwl
+  - phase: 3
+    rows:
+    - twwwwwwws
+    - t       s
+    - t       s
+    - t       s
+    - t       s
+    - t       s
+    - t       s
+    - t       s
+    - twwwwwwws
+  - phase: 3
+    rows:
+    - " twwwwws "
+    - " t     s "
+    - " t     s "
+    - " t     s "
+    - " t     s "
+    - " t     s "
+    - " t     s "
+    - " t     s "
+    - " twwwwws "
+  - phase: 3
+    rows:
+    - "  twwws  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  t   s  "
+    - "  twwws  "
+  - phase: 3
+    rows:
+    - "   tws   "
+    - "   t s   "
+    - "   t s   "
+    - "   t s   "
+    - "   t s   "
+    - "   t s   "
+    - "   t s   "
+    - "   t s   "
+    - "   tws   "
+  - phase: 3
+    rows:
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+    - "    r    "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  design-version: 2
+garden:
+  name: Огородный двор
+  beds: 0
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: garden
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+    Z: "$gate[facing=south]"
+    E: "$door[facing=east,half=lower]"
+    e: "$door[facing=east,half=upper]"
+    Q: "$gate[facing=east]"
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbbbbb
+    - bbbbbbbbbb
+    - bbbbbbbbbb
+    - bbbbbbbbbb
+    - bbbbbbbbbb
+  - phase: 1
+    rows:
+    - pppppaaaaa
+    - pppppaaaaa
+    - pppppaavaa
+    - pppppaaaaa
+    - pppppaaaaa
+  - phase: 2
+    rows:
+    - lwwwlFFFFF
+    - w...EQCCCF
+    - wf.cwFC.CF
+    - w...wFCCCF
+    - lwdwlFFZFF
+  - phase: 2
+    rows:
+    - lwgwl.....
+    - w...e.....
+    - g...g.....
+    - w...w.....
+    - lwDwl.....
+  - phase: 3
+    rows:
+    - lwwwl
+    - w...w
+    - w.L.w
+    - w...w
+    - lwwwl
+  - phase: 3
+    rows:
+    - twwws
+    - t   s
+    - t   s
+    - t   s
+    - twwws
+  - phase: 3
+    rows:
+    - " tws "
+    - " t s "
+    - " t s "
+    - " t s "
+    - " tws "
+  - phase: 3
+    rows:
+    - "  r  "
+    - "  r  "
+    - "  r  "
+    - "  r  "
+    - "  r  "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+camp_workbench:
+  name: Ремесленная мастерская
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+  - phase: 2
+    rows:
+    - lwwwl
+    - wf.cw
+    - w...w
+    - w...w
+    - w...w
+    - w...w
+    - lwdwl
+  - phase: 2
+    rows:
+    - lwwwl
+    - g...g
+    - w...w
+    - w...w
+    - w...w
+    - w...w
+    - lwDwl
+  - phase: 2
+    rows:
+    - lwwwl
+    - w...w
+    - w...w
+    - w...w
+    - w...w
+    - w...w
+    - lwwwl
+  - phase: 3
+    rows:
+    - rrrrr
+    - rrrrr
+    - rrrrr
+    - rrrrr
+    - rrrrr
+    - rrrrr
+    - rrrrr
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 2
+    z: 6
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+stone_pit:
+  name: Каменная выработка
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: stone_pit
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 2
+    rows:
+    - lSSSSSl
+    - Sf...cS
+    - l..S..l
+    - S.....S
+    - SSSGSSS
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - rrrrrrr
+    - rrrrrrr
+    - rrrrrrr
+    - "       "
+    - "       "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 4
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+sand_pit:
+  name: Песчаная выработка
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: sand_pit
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+  - phase: 2
+    rows:
+    - lFFFFFl
+    - Ff...cF
+    - l.....l
+    - F.....F
+    - FFFGFFF
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - rrrrrrr
+    - rrrrrrr
+    - rrrrrrr
+    - "       "
+    - "       "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 4
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+iron_pit:
+  name: Малая железная выработка
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: iron_pit
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+    - ppppp
+  - phase: 2
+    rows:
+    - lbbbl
+    - lfFcl
+    - "....."
+    - "....."
+    - "....."
+    - l...l
+    - l.G.l
+  - phase: 2
+    rows:
+    - lbbbl
+    - l...l
+    - "....."
+    - "....."
+    - "....."
+    - l...l
+    - l...l
+  - phase: 2
+    rows:
+    - lbbbl
+    - l...l
+    - "....."
+    - "....."
+    - "....."
+    - l...l
+    - l...l
+  - phase: 3
+    rows:
+    - twwws
+    - t   s
+    - t   s
+    - t   s
+    - t   s
+    - t   s
+    - twwws
+  - phase: 3
+    rows:
+    - " tws "
+    - " t s "
+    - " t s "
+    - " t s "
+    - " t s "
+    - " t s "
+    - " tws "
+  - phase: 3
+    rows:
+    - "  s  "
+    - "  s  "
+    - "  s  "
+    - "  s  "
+    - "  s  "
+    - "  s  "
+    - "  s  "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 2
+    z: 6
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+kiln_house:
+  name: Печной дом с трубой
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+    R: cobblestone_slab
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 2
+    rows:
+    - lbbbbbl
+    - bf...cb
+    - b....kb
+    - b.....b
+    - b.....b
+    - b.....b
+    - lbbdbbl
+  - phase: 2
+    rows:
+    - lbbbbbl
+    - g.....g
+    - b.....b
+    - b.....b
+    - b.....b
+    - b.....b
+    - lbbDbbl
+  - phase: 2
+    rows:
+    - lbbbbbl
+    - b.....b
+    - b.....b
+    - b.....b
+    - b.....b
+    - b.....b
+    - lbbbbbl
+  - phase: 3
+    rows:
+    - RRRRRRR
+    - RRRRRRR
+    - RRRRRRR
+    - RRRRRRR
+    - RRRRRRR
+    - RRRRRRR
+    - RRRRRRR
+  - phase: 3
+    rows:
+    - "       "
+    - "       "
+    - "     b "
+    - "       "
+    - "       "
+    - "       "
+    - "       "
+  - phase: 3
+    rows:
+    - "       "
+    - "       "
+    - "     b "
+    - "       "
+    - "       "
+    - "       "
+    - "       "
+  - phase: 3
+    rows:
+    - "       "
+    - "       "
+    - "     b "
+    - "       "
+    - "       "
+    - "       "
+    - "       "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 6
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+forge:
+  name: Деревенская кузница
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 2
+    rows:
+    - lbbbbbl
+    - bf.q.cb
+    - b....kb
+    - b.....b
+    - b....kb
+    - lA....l
+    - l.....l
+    - l.....l
+    - lFFGFFl
+  - phase: 2
+    rows:
+    - lwwwwwl
+    - g.....g
+    - w.....w
+    - w.....w
+    - w.....w
+    - l.....l
+    - l.....l
+    - l.....l
+    - l.....l
+  - phase: 2
+    rows:
+    - lwwwwwl
+    - w.....w
+    - w.....w
+    - w.....w
+    - w.....w
+    - l.....l
+    - l.....l
+    - l.....l
+    - l.....l
+  - phase: 3
+    rows:
+    - twwwwws
+    - t     s
+    - t    bs
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - twwwwws
+  - phase: 3
+    rows:
+    - " twwws "
+    - " t   s "
+    - " t   b "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " twwws "
+  - phase: 3
+    rows:
+    - "  tws  "
+    - "  t s  "
+    - "  t sb "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  tws  "
+  - phase: 3
+    rows:
+    - "   s   "
+    - "   s   "
+    - "   s b "
+    - "   s   "
+    - "   s   "
+    - "   s   "
+    - "   s   "
+    - "   s   "
+    - "   s   "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 8
+    facing: SOUTH
+  design-version: 2
+  ground-layer: 0
+  closed-gables: false
+water_intake:
+  name: Водозаборный двор
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: water_supply
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$planks"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+    A: smithing_table
+  layers:
+  - phase: 1
+    rows:
+    - bbbbb
+    - bbbbb
+    - "     "
+    - "     "
+    - "     "
+  - phase: 2
+    rows:
+    - l...l
+    - ".f..."
+    - l...l
+    - "....."
+    - "....."
+  - phase: 2
+    rows:
+    - l...l
+    - "....."
+    - l...l
+    - "....."
+    - "....."
+  - phase: 2
+    rows:
+    - l...l
+    - "....."
+    - l...l
+    - "....."
+    - "....."
+  - phase: 3
+    rows:
+    - rrrrr
+    - rrrrr
+    - rrrrr
+    - "....."
+    - "....."
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 2
+    z: 4
+    facing: SOUTH
+tree_garden:
+  name: Лесной огород
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: grove_oak
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+    u: dirt
+    T: "$sapling"
+  layers:
+  - phase: 1
+    rows:
+    - "       "
+    - "       "
+    - "       "
+    - "       "
+    - " u   u "
+    - "       "
+    - "       "
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - ".T...T."
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  maintenance: {}
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 0
+    facing: NORTH
+settler_lodge:
+  name: Дом с деревянными лежанками
+  beds: 4
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$planks"
+    l: "$log"
+    g: "$fence"
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: air
+    f: crafting_table
+    h: air
+    L: air
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 1
+    rows:
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+  - phase: 2
+    rows:
+    - lwwwwwl
+    - wHHHH.w
+    - wBBBB.w
+    - w.....w
+    - wf...cw
+    - w.....w
+    - lwwdwwl
+  - phase: 2
+    rows:
+    - lwgwgwl
+    - w.....w
+    - g.....g
+    - w.....w
+    - g.....g
+    - w.....w
+    - lwgDgwl
+  - phase: 3
+    rows:
+    - lwwwwwl
+    - w.....w
+    - w.....w
+    - w..L..w
+    - w.....w
+    - w.....w
+    - lwwwwwl
+  - phase: 3
+    rows:
+    - twwwwws
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - twwwwws
+  - phase: 3
+    rows:
+    - " twwws "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " twwws "
+  - phase: 3
+    rows:
+    - "  tws  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  tws  "
+  - phase: 3
+    rows:
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  design-version: 2
+family_home:
+  name: Дом одной семьи с кроватями
+  beds: 4
+  level: 1
+  ground-layer: 1
+  closed-gables: true
+  trust: 0
+  fee: 0
+  recipe: 
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$planks"
+    l: "$log"
+    g: "$fence"
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: air
+    L: air
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 1
+    rows:
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+    - ppppppp
+  - phase: 2
+    rows:
+    - lwwwwwl
+    - wHH.HHw
+    - wBB.BBw
+    - w.....w
+    - wf...cw
+    - w.....w
+    - lwwdwwl
+  - phase: 2
+    rows:
+    - lwgwgwl
+    - w.....w
+    - g.....g
+    - w.....w
+    - g.....g
+    - w.....w
+    - lwgDgwl
+  - phase: 3
+    rows:
+    - lwwwwwl
+    - w.....w
+    - w.....w
+    - w..L..w
+    - w.....w
+    - w.....w
+    - lwwwwwl
+  - phase: 3
+    rows:
+    - twwwwws
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - t     s
+    - twwwwws
+  - phase: 3
+    rows:
+    - " twwws "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " t   s "
+    - " twwws "
+  - phase: 3
+    rows:
+    - "  tws  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  t s  "
+    - "  tws  "
+  - phase: 3
+    rows:
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+    - "   r   "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  design-version: 2
+street_light:
+  name: Дорожный светильник
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  ground-layer: 0
+  symbols:
+    b: "$base"
+    f: "$fence"
+    t: torch
+  layers:
+  - phase: 1
+    rows:
+    - b
+  - phase: 2
+    rows:
+    - f
+  - phase: 2
+    rows:
+    - f
+  - phase: 3
+    rows:
+    - b
+  - phase: 4
+    rows:
+    - t
+  maintenance: {}
+  maintenance-days: 7
+  unlock-stage: 0
+starter_quarry:
+  name: Начальная каменная выработка
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: stone_pit
+  symbols:
+    b: "$planks"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: "$roof"
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 2
+    rows:
+    - lSSSSSl
+    - Sf...cS
+    - l..S..l
+    - S.....S
+    - SSSGSSS
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - rrrrrrr
+    - rrrrrrr
+    - rrrrrrr
+    - "       "
+    - "       "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 4
+    facing: SOUTH
+  design-version: 4
+  ground-layer: 0
+  closed-gables: false
+soil_pit:
+  name: Земляная выработка
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: soil_pit
+  symbols:
+    b: cobblestone
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$planks"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: cobblestone_slab
+    k: furnace[facing=south]
+    A: smithing_table
+    G: "$gate[facing=south]"
+    q: grindstone
+  layers:
+  - phase: 1
+    rows:
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+    - bbbbbbb
+  - phase: 2
+    rows:
+    - lSSSSSl
+    - Sf...cS
+    - l..S..l
+    - S.....S
+    - SSSGSSS
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - l.....l
+    - "......."
+    - l.....l
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - rrrrrrr
+    - rrrrrrr
+    - rrrrrrr
+    - "       "
+    - "       "
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 4
+    facing: SOUTH
+  design-version: 4
+  ground-layer: 0
+  closed-gables: false
+relief_garden:
+  name: Восстановительный огород
+  beds: 0
+  level: 1
+  ground-layer: 0
+  trust: 0
+  fee: 0
+  recipe: garden
+  maintenance:
+    COBBLESTONE: 1
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 4
+    z: 8
+    facing: SOUTH
+  design-version: 4
+  layers:
+  - phase: 1
+    floor: true
+    rows:
+    - AAAAAAAAA
+    - ACCCDEEEA
+    - ACCCDEECA
+    - ACCCDECCA
+    - ADDDDDDDA
+    - ACCEDCCCA
+    - ACECDCCCA
+    - AECCDCCCA
+    - AAAAAAAAA
+  - phase: 4
+    floor: false
+    rows:
+    - FFFFFFFFF
+    - FIJJ....F
+    - FJJJ...JF
+    - FJJJ..JJF
+    - F.......F
+    - FJJ..JJJF
+    - FJ.J.JJJF
+    - F.JJ.JJKF
+    - FFFFGFFFF
+  - phase: 3
+    floor: false
+    rows:
+    - "........."
+    - ".L......."
+    - "........."
+    - "........."
+    - "........."
+    - "........."
+    - "........."
+    - "........."
+    - "........."
+  symbols:
+    ".": air
+    A: dirt
+    C: farmland[moisture=7]
+    D: oak_planks
+    E: water[level=0]
+    F: oak_fence
+    G: oak_fence_gate[facing=south]
+    I: barrel
+    J: carrots[age=7]
+    K: potatoes[age=7]
+    L: oak_slab[type=bottom]
+    M: cobblestone
+    N: oak_stairs[facing=north]
+tree_garden_oak:
+  name: Лесная делянка · OAK
+  beds: 0
+  level: 1
+  trust: 0
+  fee: 0
+  recipe: grove_oak
+  symbols:
+    b: "$base"
+    p: "$planks"
+    w: "$wall"
+    l: "$log"
+    g: glass_pane
+    r: "$roof"
+    s: "$stairs[facing=west]"
+    t: "$stairs[facing=east]"
+    d: "$door[facing=south,half=lower]"
+    D: "$door[facing=south,half=upper]"
+    ".": air
+    c: barrel
+    f: crafting_table
+    h: hay_block
+    L: lantern
+    B: white_bed[facing=north,part=foot]
+    H: white_bed[facing=north,part=head]
+    a: farmland[moisture=7]
+    v: water
+    C: carrots[age=7]
+    F: "$fence"
+    o: composter
+    S: stonecutter
+    k: furnace[facing=south]
+    u: dirt
+    T: "$sapling"
+  layers:
+  - phase: 1
+    rows:
+    - "       "
+    - "       "
+    - "       "
+    - "       "
+    - " u   u "
+    - "       "
+    - "       "
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - ".T...T."
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  - phase: 2
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  - phase: 3
+    rows:
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+    - "......."
+  maintenance: {}
+  maintenance-days: 7
+  unlock-stage: 0
+  entrance:
+    x: 3
+    z: 0
+    facing: NORTH
+  design-version: 4

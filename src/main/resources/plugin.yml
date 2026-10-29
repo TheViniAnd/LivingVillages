@@ -1,0 +1,19 @@
+name: ${pluginName}
+version: '${version}'
+main: ru.livingvillages.paper.LivingVillagesPlugin
+api-version: '26.3'
+prefix: ${pluginTitle}
+description: ${pluginTitle} — living settlements, economy and construction
+author: LivingVillages
+softdepend: [WorldGuard, WorldEdit, GriefPrevention]
+commands:
+  lv:
+    description: LivingVillages settlements
+    usage: /lv help
+permissions:
+  livingvillages.admin:
+    description: LivingVillages administration
+    default: op
+  livingvillages.bypass:
+    description: Administrative settlement block editing (toggle with /lv bypass)
+    default: op
