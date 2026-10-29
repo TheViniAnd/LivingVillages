@@ -1,8 +1,43 @@
 # LivingVillages 0.1 — Free
 
+![LivingVillages Free — a village that builds itself](assets/readme/cover-free.jpg)
+
+<p align="center">
+  <strong>Paper 26.3 · Java 25 · English & Russian · MIT</strong><br>
+  <a href="https://github.com/TheViniAnd/LivingVillages/releases">Releases</a>
+  &nbsp;·&nbsp;
+  <a href="#install-and-language">Install</a>
+  &nbsp;·&nbsp;
+  <a href="#build">Build from source</a>
+  &nbsp;·&nbsp;
+  <a href="README.ru.md">Русский</a>
+  &nbsp;·&nbsp;
+  <a href="LICENSE">License</a>
+</p>
+
 Server-side settlements for Minecraft Java Edition, Paper 26.3. Players use an ordinary Minecraft client and standard textures. No resource pack or required gameplay plugin.
 
+## A village that builds itself
+
 This is the **standalone MIT-licensed Free source project**. It contains one fictional culture, village levels 1–3, up to 12 residents per village, up to 5 villages per world and a communal building catalogue. Free includes slow food/wood/stone production, ordinary crafting, hunger, housing and immigration, gradual construction, physical coins, finite village treasuries, demand-based trading, personal trust, delivery tasks, NPC routines, local guards, maps and information boards. Production needs physical completed workplaces, workers, tools and verified resources. Resources and construction reservations share one persistent model.
+
+![A village street with residents, homes and production areas](assets/readme/village-street.jpg)
+
+## Economy, work and village life
+
+Food, workers, tools and available materials shape the settlement's progress. Trade, complete delivery tasks and build personal trust with its residents.
+
+![A farmer working in the village crop field](assets/readme/farmer.jpg)
+
+## Maps and village information
+
+Track population, food, treasury and construction needs through the village's map and information board.
+
+![Village map and information board](assets/readme/village-board.jpg)
+
+*The promotional screenshots were enhanced with shader-style lighting. Shaders are not included with LivingVillages.*
+
+## Open-source edition
 
 Premium is distributed separately. Its other cultures, expanded architecture, building upgrades, private house orders, government, armies, wars, monuments and rare weapons are **absent from this source tree**. There is no Premium switch, key or downloadable Premium module here. Limits in open source can be modified; they are product defaults, not copy protection. Premium notices can be disabled in `config.yml`.
 
