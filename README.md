@@ -1,92 +1,73 @@
-# LivingVillages 0.1 — Free
+# LivingVillages — Free
 
-![LivingVillages Free — a village that builds itself](assets/readme/cover-free.jpg)
+![LivingVillages Free](assets/readme/cover-free.jpg)
 
 <p align="center">
-  <strong>Paper 26.3 · Java 25 · English & Russian · MIT</strong><br>
+  <strong><a href="https://github.com/TheViniAnd/LivingVillages/releases/latest/download/LivingVillages.jar">⬇ Download .JAR</a></strong>
+  &nbsp;·&nbsp;
   <a href="https://github.com/TheViniAnd/LivingVillages/releases">Releases</a>
   &nbsp;·&nbsp;
-  <a href="#install-and-language">Install</a>
+  <a href="#installation">Installation</a>
   &nbsp;·&nbsp;
-  <a href="#build">Build from source</a>
+  <a href="#commands">Commands</a>
   &nbsp;·&nbsp;
   <a href="README.ru.md">Русский</a>
-  &nbsp;·&nbsp;
-  <a href="LICENSE">License</a>
 </p>
 
-Server-side settlements for Minecraft Java Edition, Paper 26.3. Players use an ordinary Minecraft client and standard textures. No resource pack or required gameplay plugin.
+**NPCs build their own village.** Trade with residents, help with supplies and watch the settlement grow.
 
-## A village that builds itself
+## Construction and village life
 
-This is the **standalone MIT-licensed Free source project**. It contains one fictional culture, village levels 1–3, up to 12 residents per village, up to 5 villages per world and a communal building catalogue. Free includes slow food/wood/stone production, ordinary crafting, hunger, housing and immigration, gradual construction, physical coins, finite village treasuries, demand-based trading, personal trust, delivery tasks, NPC routines, local guards, maps and information boards. Production needs physical completed workplaces, workers, tools and verified resources. Resources and construction reservations share one persistent model.
+Residents gather resources, craft tools and build homes and workplaces. They work, eat, rest and move into new housing. Local guards protect the village.
 
-![A village street with residents, homes and production areas](assets/readme/village-street.jpg)
+![Village streets and residents](assets/readme/village-street.jpg)
 
-## Economy, work and village life
+## Economy and trade
 
-Food, workers, tools and available materials shape the settlement's progress. Trade, complete delivery tasks and build personal trust with its residents.
+Physical coins, a village treasury and trading based on local demand. Complete delivery tasks, supply materials and earn residents' trust.
 
-![A farmer working in the village crop field](assets/readme/farmer.jpg)
+![Village farm](assets/readme/farmer.jpg)
 
 ## Maps and village information
 
-Track population, food, treasury and construction needs through the village's map and information board.
+The village map and information boards show population, food supplies, treasury and construction needs.
 
-![Village map and information board](assets/readme/village-board.jpg)
+![Village map and information boards](assets/readme/village-board.jpg)
 
-*The promotional screenshots were enhanced with shader-style lighting. Shaders are not included with LivingVillages.*
+## Free version
 
-## Open-source edition
+- One culture.
+- Village levels 1–3.
+- Up to 12 residents per village.
+- Up to 5 villages per world.
 
-Premium is distributed separately. Its other cultures, expanded architecture, building upgrades, private house orders, government, armies, wars, monuments and rare weapons are **absent from this source tree**. There is no Premium switch, key or downloadable Premium module here. Limits in open source can be modified; they are product defaults, not copy protection. Premium notices can be disabled in `config.yml`.
+## Installation
 
-## Build
-
-Install JDK 25, then run:
-
-```sh
-./gradlew clean test build
-python3 scripts/check_distribution.py build/libs/LivingVillages-0.1.jar
-```
-
-Windows: use `gradlew.bat`. Gradle Wrapper 9.1.0 downloads Gradle and the build downloads dependencies on the first run. The output is `build/libs/LivingVillages-0.1.jar`. Minecraft server software, JDKs and dependency caches are not included in this repository.
-
-## Install and language
-
-1. Stop the server and back up its world and `plugins/LivingVillages` folder.
-2. Put **one** LivingVillages JAR in `plugins`; remove older copies and the other edition.
-3. Start Paper 26.3 with Java 25. Do not use Bukkit `/reload` to replace plugin binaries.
-4. English is the default. In `plugins/LivingVillages/config.yml`, set `language: ru` for Russian, then use `/lv reload` or restart. `language: en` selects English.
-
-Folia is not supported. WorldGuard and GriefPrevention are optional region integrations. Unknown plugins can conservatively block placement; configure the explicit allowlist only after checking their protection behavior. Automatic generation examines new chunks; administrative `/lv create` is available for a checked site on older terrain. It does not replace vanilla villages.
+1. [Download the plugin](https://github.com/TheViniAnd/LivingVillages/releases/latest/download/LivingVillages.jar).
+2. Place the JAR in your server's `plugins` folder.
+3. Restart the server.
 
 ## Commands
 
-| Command | Purpose |
+| Command | Action |
 | --- | --- |
-| `/lv help` | Command descriptions |
-| `/lv menu` | Personally discovered villages; village actions require being inside its territory |
-| `/lv status` | Nearby village state and blocking reasons |
-| `/lv claims` | Collect retained property/returns |
-| `/lv edition` | Free limits and Premium information |
-| `/lv admin` | Administrative village and trust controls |
-| `/lv create polevichi [layout]` | Check and create a test settlement; administrator only |
-| `/lv coins <amount> [player]` | Give test money, in bronze units; administrator only |
-| `/lv pause`, `/lv npc status`, `/lv npc repair` | Simulation and NPC diagnostics; administrator only |
-| `/lv bypass`, `/lv diagnostics`, `/lv generation`, `/lv operations` | Administrative protection, performance and recovery tools |
-| `/lv reload` | Validate supported settings and reload |
+| `/lv help` | Show available commands |
+| `/lv menu` | Open discovered villages |
+| `/lv status` | View village status |
+| `/lv claims` | Collect stored items and returns |
+| `/lv admin` | Open administration tools |
+| `/lv create polevichi [layout]` | Create a village |
+| `/lv coins <amount> [player]` | Give coins |
+| `/lv reload` | Reload settings |
 
-`livingvillages.admin` grants administrative tools; `livingvillages.bypass` permits the explicit bypass toggle. Both default to operators. NPC right-click supports chat; special residents also provide their village/trade interface. Gift access starts at 50 trust; player-requested communal construction starts at 100. Delivery tasks remain available to newcomers, one active delivery at a time.
+Administrative permission: `livingvillages.admin`.
 
-## Persistence and upgrades
+## Build from source
 
-SQLite data and the operation journal live in `plugins/LivingVillages`. One server owns the folder. This project supports the released Free 0.1 village format 15 and SQLite schema 3. Unsupported earlier formats and Premium saves are rejected; never change edition markers to force a conversion. Missing Premium fields are inspected **before** deserialization so unsupported property is not silently discarded. Back up before migration.
+```sh
+./gradlew build
+```
 
-Server shutdown pauses simulation. Production uses elapsed running-server time rather than daylight or wall-clock time while stopped. Unloaded chunks do not require resident entities; construction still needs world application before a new workplace produces. A database transaction cannot atomically include Minecraft player files: ambiguous interrupted inventory operations are quarantined for administrator reconciliation. See [persistence details](docs/PERSISTENCE.md).
+## Documentation
 
-## Verification
-
-`./gradlew test` tests money, finite stock/treasury, construction reservations, production/hunger and persistence. Optional `./gradlew verificationJar` creates a separate QA JAR containing `ServerChecks`; the ordinary JAR excludes those fixtures. See [server checks](docs/TESTING.md). Model tests do not establish client rendering, connected-player behavior or public-server capacity. No throughput guarantees are made.
-
-See [Russian instructions](README.ru.md), [release verification](docs/VERIFICATION.md) and [third-party notices](THIRD_PARTY.md). The project code and original game data in this tree are MIT-licensed; dependencies retain their own licenses. Premium source and distribution are not licensed by this repository.
+[Configuration](src/main/resources/config.yml) · [Persistence](docs/PERSISTENCE.md) · [Testing](docs/TESTING.md) · [License](LICENSE)
