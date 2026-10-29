@@ -2,6 +2,14 @@
 
 ![LivingVillages Free](assets/readme/cover-free.jpg)
 
+<h1 align="center">PREMIUM VERSION</h1>
+
+<p align="center">
+  <a href="https://boosty.to/minefind/posts/81e61963-879b-470d-81e0-475d6a545725">
+    <img src="https://img.shields.io/badge/GET_PREMIUM_ON_BOOSTY-FF8A00.png?style=for-the-badge" alt="Get Premium on Boosty">
+  </a>
+</p>
+
 <p align="center">
   <strong><a href="https://github.com/TheViniAnd/LivingVillages/releases/latest/download/LivingVillages.jar">⬇ Скачать .JAR</a></strong>
   &nbsp;·&nbsp;
@@ -56,7 +64,7 @@
 | `/lv status` | Состояние деревни |
 | `/lv claims` | Получить сохранённые предметы и возвраты |
 | `/lv admin` | Управление деревнями |
-| `/lv create polevichi [layout]` | Создать деревню |
+| `/lv create` | Создать деревню |
 | `/lv coins <amount> [player]` | Выдать монеты |
 | `/lv reload` | Перезагрузить настройки |
 
